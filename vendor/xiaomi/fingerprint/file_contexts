@@ -7,3 +7,6 @@
 /data/vendor/goodix(/.*)?                                                          u:object_r:vendor_fingerprint_data_file:s0
 /mnt/vendor/persist/fpc(/.*)?                                                      u:object_r:vendor_fingerprint_data_file:s0
 /mnt/vendor/persist/goodix(/.*)?                                                   u:object_r:vendor_fingerprint_data_file:s0
+
+# Hals
+/vendor/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-service\.xiaomi_sm8250    u:object_r:hal_fingerprint_default_exec:s0
