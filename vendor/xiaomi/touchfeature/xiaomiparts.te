@@ -1,0 +1,2 @@
+allow xiaomiparts hal_touchfeature_default:binder call;
+allow xiaomiparts hal_touchfeature_hwservice:hwservice_manager find;
