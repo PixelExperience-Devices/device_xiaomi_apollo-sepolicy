@@ -36,6 +36,7 @@ BOARD_SEPOLICY_DIRS += \
     device/xiaomi/apollo-sepolicy/vendor/xiaomi/parts \
     device/xiaomi/apollo-sepolicy/vendor/xiaomi/power \
     device/xiaomi/apollo-sepolicy/vendor/xiaomi/radio \
+    device/xiaomi/apollo-sepolicy/vendor/xiaomi/sensor \
     device/xiaomi/apollo-sepolicy/vendor/xiaomi/thermald \
     device/xiaomi/apollo-sepolicy/vendor/xiaomi/touchfeature \
     device/xiaomi/apollo-sepolicy/vendor/xiaomi/usb \
