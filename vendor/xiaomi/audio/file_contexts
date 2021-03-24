@@ -1,0 +1,5 @@
+# Audio
+/sys/devices/platform/soc/a8c000.i2c/i2c-2/2-005a/f0_value u:object_r:vendor_sysfs_audio:s0
+
+# Dev
+/dev/socket/audio_hw_socket                   u:object_r:audio_socket:s0
