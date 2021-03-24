@@ -26,3 +26,6 @@ allow hal_camera_default remosaic_daemon_service:service_manager find;
 
 # Communicate with remosaic daemon via binder IPC
 binder_call(hal_camera_default, remosaic_daemon)
+
+# Allow /proc/stat access from Camera HALs
+allow hal_camera_default proc_stat:file r_file_perms;
