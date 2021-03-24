@@ -1,2 +1,5 @@
 # HALs
 /vendor/bin/hw/android\.hardware\.lights-service\.apollo                                          u:object_r:hal_light_default_exec:s0
+
+# Sys
+/sys/devices/platform/soc/[a-z0-9]+.qcom,spmi/spmi-[0-1]/spmi0-0[0-9]/[a-z0-9]+.qcom,spmi:qcom,[a-z0-9]+@[0-9]:qcom,leds@d000/leds(/.*)?             u:object_r:sysfs_leds:s0
