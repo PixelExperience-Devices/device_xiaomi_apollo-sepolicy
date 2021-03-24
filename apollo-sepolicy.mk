@@ -21,6 +21,7 @@ BOARD_SEPOLICY_DIRS += \
     device/xiaomi/apollo-sepolicy/vendor/xiaomi/audio \
     device/xiaomi/apollo-sepolicy/vendor/xiaomi/battery \
     device/xiaomi/apollo-sepolicy/vendor/xiaomi/camera \
+    device/xiaomi/apollo-sepolicy/vendor/xiaomi/citsensor \
     device/xiaomi/apollo-sepolicy/vendor/xiaomi/fingerprint \
     device/xiaomi/apollo-sepolicy/vendor/xiaomi/fod \
     device/xiaomi/apollo-sepolicy/vendor/xiaomi/last_kmsg \
